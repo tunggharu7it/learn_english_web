@@ -13,7 +13,7 @@ import time
 app = Flask(__name__)
 print(__file__)
 # Configure AssemblyAI API key
-aai.settings.api_key = "202aad4a15ed4353a214fc2e3deffa02"
+aai.settings.api_key = "YOUR_API_KEY"
 
 def load_data():
     """Load data from JSON files."""
