@@ -45,6 +45,24 @@
 **Chatbot**
 <img width="1902" height="967" alt="image" src="https://github.com/user-attachments/assets/2655b7e3-dcff-4a45-966d-4872e7940747" />
 
+# 🧠 Machine Learning và NLP trong ứng dụng
+
+Ứng dụng sử dụng các công nghệ **Machine Learning (ML)** và **Natural Language Processing (NLP)** để cung cấp các tính năng thông minh:
+
+### 1. Machine Learning (ML)
+- **Nhận diện giọng nói**: Sử dụng **AssemblyAI** để chuyển đổi âm thanh thành văn bản (speech-to-text) và đánh giá độ chính xác phát âm. Mô hình ML của AssemblyAI được huấn luyện trên dữ liệu giọng nói lớn, cho phép nhận diện chính xác các từ và câu tiếng Anh.
+- **Xử lý âm thanh**: Ứng dụng áp dụng các kỹ thuật ML để lọc nhiễu, tăng cường âm thanh (sử dụng FFmpeg) và phân tích biên độ âm thanh để đảm bảo chất lượng bản ghi âm.
+- **Đánh giá phát âm**: ML được sử dụng để so sánh phát âm của người dùng với phát âm chuẩn, cung cấp điểm chính xác cho từng từ và toàn bộ câu.
+
+### 2. Natural Language Processing (NLP)
+- **Phân tích ngữ pháp và ngữ nghĩa**: **Chatbot Ngữ pháp** sử dụng API **Google Generative Language** (Gemini 1.5 Flash) để phân tích câu tiếng Anh, phát hiện lỗi ngữ pháp (ví dụ: sai chia động từ) và ngữ nghĩa (ví dụ: chọn từ sai ngữ cảnh), đồng thời đưa ra gợi ý sửa chữa.
+- **Xử lý từ vựng**: **Chatbot Từ vựng** cung cấp thông tin chi tiết về từ (IPA, nghĩa, loại từ) bằng cách tận dụng các mô hình NLP để trích xuất và định dạng thông tin ngôn ngữ.
+- **Hội thoại tự nhiên**: **Chatbot Hội thoại** sử dụng NLP để hiểu và phản hồi các câu hỏi hoặc câu nói của người dùng một cách tự nhiên, mô phỏng cuộc trò chuyện thực tế. Công nghệ **gTTS** (Google Text-to-Speech) được tích hợp để tạo giọng nói cho phản hồi.
+- **Chuẩn hóa văn bản**: Ứng dụng sử dụng các kỹ thuật NLP cơ bản (như regex) để chuẩn hóa văn bản, ví dụ: viết hoa chữ cái đầu câu và đại từ "I" trong tiếng Anh.
+
+Các công nghệ ML và NLP này giúp ứng dụng không chỉ cung cấp phản hồi chính xác mà còn tạo ra trải nghiệm học tập cá nhân hóa và tương tác.
+
+---
 
 ## ⚙️ Cài đặt
 
