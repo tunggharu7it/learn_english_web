@@ -21,6 +21,8 @@
   - Nghe cách phát âm mẫu (hỗ trợ các giọng: US-Male, US-Female, UK-Male, UK-Female).
   - Ghi âm phát âm của người dùng và nhận phản hồi về độ chính xác (dựa trên AssemblyAI).
   - Xem hình ảnh minh họa và nghĩa tiếng Việt (nếu có).
+
+* Đăng kí, đăng nhập*
 <img width="727" height="374" alt="image" src="https://github.com/user-attachments/assets/147a05e6-1182-41a4-b566-dd623c3fdfb9" />
 
 ---
