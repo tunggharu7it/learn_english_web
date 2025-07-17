@@ -1,0 +1,13 @@
+<div class="chatbot-container">
+    <div class="chatbot-selector">
+        <button id="grammarBtn" class="active" onclick="selectChatbot('grammar')">Chatbot Ngữ Pháp</button>
+        <button id="vocabBtn" onclick="selectChatbot('vocabulary')">Chatbot Từ Vựng</button>
+        <button id="conversationBtn" onclick="selectChatbot('conversation')">Chatbot Hội Thoại</button>
+    </div>
+    <div class="chat-box" id="chatBox"></div>
+    <div class="input-area">
+        <input type="text" id="chatInput" placeholder="Nhập câu hoặc từ tiếng Anh...">
+        <button onclick="sendMessage()">Gửi</button>
+        <button id="speechInputBtn" class="speech-input" onclick="startSpeechRecognition()" disabled>🎙️</button>
+    </div>
+</div>

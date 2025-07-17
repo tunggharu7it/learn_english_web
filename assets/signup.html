@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/assets/logo/Logo.png" type="image/x-icon">
+<script src="https://kit.fontawesome.com/c135a019b6.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link href="/assets/auth.css" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<title>Sign Up</title>
+</head>
+<body>
+    <form class="form">
+        <span class="signup">Đăng kí</span>
+        <div class="messageDiv" id="signUpMessage" style="display: none;"></div>
+        <input type="email" placeholder="Email address" class="form--input" id="rEmail">
+        <input type="password" placeholder="Password" class="form--input" id="rPassword">
+        <input type="password" placeholder="Confirm password" class="form--input" id="cPassword">
+        
+        <div class="form--marketing">
+            <p class="note">Bạn đã có tài khoản? <a href="/login" style="text-decoration: none; color:blue; font-weight: 600;">Đăng nhập</a></p>
+        </div>
+        <button class="form--submit" id="signUp" type="button">
+            Đăng kí
+        </button>
+    </form>
+    <script type="module" src="/assets/Auth.js"></script>
+</body>
+</html>

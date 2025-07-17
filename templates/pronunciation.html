@@ -1,0 +1,28 @@
+<div class="topic-selector">
+    <label for="topic">Select Topic:</label>
+    <select id="topic" onchange="handleTopicChange()" style="color: black;">
+        <option value="">-- Select a Topic --</option>
+        <option value="my-dictionary">My Dictionary</option>
+        {% for topic in topics %}
+            <option value="{{ topic }}">{{ topic.capitalize() }}</option>
+        {% endfor %}
+    </select>
+</div>
+<div class="voice-selector">
+    <label for="voice">Voice Option:</label>
+    <select id="voice" onchange="updateVoiceOption()">
+        <option value="US-Male">US - Male</option>
+        <option value="US-Female">US - Female</option>
+        <option value="UK-Male">UK - Male</option>
+        <option value="UK-Female">UK - Female</option>
+    </select>
+</div>
+
+<div id="my-dictionary-panel" style="display: none;">
+    <div style="display: flex; gap: 10px; align-items: center;">
+        <input type="text" id="newWordInput" placeholder="Nhập câu tiếng Anh">
+        <button onclick="handleAddWord()">+ Thêm câu</button>
+    </div>
+</div>
+
+<div id="sentence-list" class="sentence-list"></div>
