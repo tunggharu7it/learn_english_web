@@ -22,9 +22,9 @@
   - Ghi âm phát âm của người dùng và nhận phản hồi về độ chính xác (dựa trên AssemblyAI).
   - Xem hình ảnh minh họa và nghĩa tiếng Việt (nếu có).
 
-**Đăng kí, đăng nhập**
+**Đăng kí, đăng nhập** <br>
 <img width="727" height="374" alt="image" src="https://github.com/user-attachments/assets/147a05e6-1182-41a4-b566-dd623c3fdfb9" />
----
+
 
 **Check phát âm**
 <img width="945" height="504" alt="image" src="https://github.com/user-attachments/assets/5f7a5c2a-8d73-4d02-8572-dc7197efbad6" />
